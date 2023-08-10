@@ -46,7 +46,8 @@ This repo contains:
 
 Note: The NIH data for EDA and training is mounted in the Udacity Jupyter GPU workspace (not available for 
       anyone cloning this repo)  provided to you 
-along with the code to load the data. Alternatively, you can download the data from the kaggle website and 
+along with the code to load the data. Alternatively, you can download the data from the kaggle website
+(https://www.kaggle.com/datasets/nih-chest-xrays/data) and 
 run it locally. You are STRONGLY recommended to complete the project using the Udacity workspace since the 
 data is huge, and you will need GPU to accelerate the training process.
 
@@ -59,5 +60,9 @@ This project has the following steps.
     * [Inference](Inference.ipynb)
 * [Clinical Workflow Integration, FDA Preparation](FDA_Submission_Template.md)
 
+## Supporting links
+* https://www.kaggle.com/datasets/nih-chest-xrays/data 
+* You may also download all of the initial files for the project directly from this Udacity repo, https://github.com/udacity/AIHCND_C2_Starter 
+* README file for the project is available from here, https://github.com/udacity/AIHCND_C2_Starter/blob/master/README.md
 
 Acknowledgement: Udacity Nanodegree Team
