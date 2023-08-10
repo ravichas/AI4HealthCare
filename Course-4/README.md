@@ -1,40 +1,49 @@
 # Course-1: Applying AI to 2D Medical Imaging Data
 
+(Please note that most of this section writeup was from Udacity and I have summarized portions of the writeup)
+
 ## Project Overview
-In this project, you will apply the skills that you have acquired in this 2D medical imaging course 
-to analyze data from the NIH Chest X-ray Dataset and train a CNN to classify a given chest x-ray 
-for the presence or absence of pneumonia. This project will culminate in a model that can predict 
-the presence of pneumonia with human radiologist-level accuracy that can be prepared for 
-submission to the FDA for 510(k) clearance as software as a medical device. As part of the submission 
-preparation, you will formally describe your model, the data that it was trained on, and a validation 
-plan that meets FDA criteria.
 
-You will be provided with the medical images with clinical labels for each image that were extracted 
-from their accompanying radiology reports.
+This project has 2 primary components: 
 
-The project will include access to a GPU for fast training of deep learning architecture, as well 
-as access to 112,000 chest x-rays with disease labels acquired from 30,000 patients.
+1) Pulse Rate Algorithm Development:
+Your journey commences with the development of a Pulse Rate Algorithm, drawing insights 
+from the provided training data. Your task encompasses crafting an algorithm that accurately 
+determines pulse rates. Subsequent to its creation, rigorous testing shall be conducted to validate 
+that the algorithm satisfactorily fulfills predefined success criteria. This phase serves as the 
+foundational cornerstone, showcasing your ability to translate data into actionable insights.
 
-## Project Highlight
-This project is designed to give you hands-on experience with 2D medical imaging data analysis 
-and preparation of a medical imaging model for regulatory approval.
+2) Clinical Application Integration and Healthcare Trends Discovery:
+The second facet of this project delves into the practical application of your Pulse Rate Algorithm 
+within a clinical context. Your algorithm is harnessed to compute a gamut of clinically meaningful 
+features that extend beyond the realm of pulse rates. Within this arena, your mission transforms 
+into a quest for healthcare trends—illuminating patterns, correlations, and insights that 
+contribute to our understanding of healthcare dynamics. Through this exploration, you stand 
+poised to uncover invaluable insights that have the potential to reshape medical practices and patient care.
 
-Upon completion of this project, you would be able to:
 
-recommend appropriate imaging modalities for common clinical applications of 2D medical imaging
-perform exploratory data analysis (EDA) on medical imaging data to inform model training and explain model performance
-establish the appropriate ‘ground truth’ methodologies for training algorithms to label medical images
-extract images from a DICOM dataset
-train common CNN architectures to classify 2D medical images
-translate outputs of medical imaging models for use by a clinician
-plan necessary validations to prepare a medical imaging model for regulatory approval
 
-## Project Steps
-This project has the following steps.
 
-* Exploratory Data Analysis
-* Building and Training Your Model
-* Clinical Workflow Integration
-* FDA Preparation
+User
+Is this a good header to indicate the main writeup came from Udacity?
+ChatGPT
+"Udacity-Originated Main Writeup"
+
+
+
+
+User
+(Please note that most of this section writeup was from Udacity and I have summarized portions of the writeup)
+ChatGPT
+"Source Acknowledgment: Udacity's Contribution and Summary"
+
+
+
+Acknowledgement: Udacity Nanodegree Team
+
+
+
+
+
 
 
