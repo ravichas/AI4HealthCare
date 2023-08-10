@@ -159,8 +159,8 @@ do not need to be modified.
 
 Offline Instructions
 
-1. Clone the project starter repo [here](https://github.com/udacity/nd320-c4-wearable-data-project-starter)..
-2. Open up the pulse_rate_starter.ipynb in a local program (e.g., spyder IDE, Jupyter Notebooks, etc. 
+1. Clone the project starter repo [here](https://github.com/udacity/nd320-c4-wearable-data-project-starter).
+2. Open up the `pulse_rate_starter.ipynb` in a local program (e.g., spyder IDE, Jupyter Notebooks, etc. 
    which you can find more detailed instructions in the Introduction to Wearables Lesson's Developer's 
    Workflow Concept.)
 3. You are ready to begin Part 1 of the Final Project.
@@ -171,7 +171,7 @@ Notes: It is good to confirm that the packages scipy is version 1.2.0+.
 ### Online Instructions
 
 You should head to the next Concept Pulse Rate Algorithm.
-Confirm that the pulse_rate_starter.ipynbis open and you are ready to complete Part 1 of the Final Project.
+Confirm that the `pulse_rate_starter.ipynb` is open and you are ready to complete Part 1 of the Final Project.
 
 
 Part 2: Clinical Application
@@ -226,7 +226,10 @@ Fitbit performed the exact analysis you just completed in this project. They use
 ![Age Group and Gender](https://video.udacity-data.com/topher/2020/February/5e3c8829_fitbit-resting-heart-rate/fitbit-resting-heart-rate.jpg)
 
 Please find the completed project files here: 
-* 
+* `pulse_rate.ipynb`  will produce `passed.png`
+* `unit_test.ipynb` for unit testing
+* `clinical_app.ipynb`   
+
 
 Acknowledgement: Udacity Nanodegree Team
 
