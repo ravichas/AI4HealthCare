@@ -1,4 +1,5 @@
 # Course-3: Applying AI to Electronic Health Record (EHR) Data 
+(*Please note that most of this section writeup was from Udacity and I have summarized portions of the writeup*)
 
 ## Project Overview
 EHR data is assuming a pivotal role as a primary source of real-world evidence (RWE) that drives decisions 
