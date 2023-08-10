@@ -37,4 +37,4 @@ This project has the following steps.
 * Clinical Workflow Integration
 * FDA Preparation
 
-
+Acknowledgement: Udacity Nanodegree Team`

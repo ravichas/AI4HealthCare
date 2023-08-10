@@ -27,7 +27,7 @@ imaging modalities, and common analysis techniques. The curriculum also delves i
 into the clinical workflow. These courses (first two) collectively equip students with the knowledge and skills 
 necessary to extract valuable insights from medical imaging data using AI methodologies.
 
-### [Course-3: Applying AI to Electronic Health Data (EHR) Data](Course-3/README.md)
+### [Course-3: Applying AI to Electronic Health Record (EHR) Data](Course-3/README.md)
 
 The third course centers on employing AI techniques with Electronic Health Record (EHR) data. In 
 today's dynamic landscape, EHR data has taken on a critical role as a cornerstone of 

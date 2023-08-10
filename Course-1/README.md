@@ -38,3 +38,5 @@ This project has the following steps.
     * [Inference](Inference.ipynb)
 * [Clinical Workflow Integration, FDA Preparation](FDA_Submission_Template.md)
 
+
+Acknowledgement: Udacity Nanodegree Team
