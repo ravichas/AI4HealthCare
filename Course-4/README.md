@@ -76,6 +76,9 @@ For example, if we want to operate at 10% availability, we look at our training 
 the confidence threshold for which 10% of the estimates pass. Then if only if an estimate's confidence 
 value is above that threshold, do we consider it valid. See the error vs. availability curve below.
 
+![MAE vs. Availability](https://video.udacity-data.com/topher/2020/February/5e3c8829_error-vs-availability/error-vs-availability.png)
+
+
 This plot is created by computing the mean absolute error at all -- or at least 100 of -- the confidence 
 thresholds in the dataset.
 
