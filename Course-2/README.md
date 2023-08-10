@@ -1,4 +1,4 @@
-# Course-1: Applying AI to 2D Medical Imaging Data
+# Course-2: Applying AI to 3D Medical Imaging Data
 (*Please note that most of this section writeup was from Udacity and I have summarized portions of the writeup*)
 
 ## Project Overview
