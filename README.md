@@ -1,8 +1,16 @@
-# AI4HealthCare (Udacity Nanodegree)
+# AI for HealthCare 
+  Udacity Nanodegree
 
 The AI for Healthcare program comprises of four courses that apply AI techniques to 
 a diverse range of data, including 2D and 3D medical imaging data, as well as 
 Electronic Health Record (EHR) and wearable device data.
+
+
+### Prerequisites: 
+   Intermediate Python and machine learning experience 
+
+### Required Hardware/Sofware: 
+   Python, PyTorch, and Aequitas 
 
 ### Course 1:
 
