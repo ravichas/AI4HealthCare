@@ -12,7 +12,7 @@ Electronic Health Record (EHR) and wearable device data.
 ### Required Hardware/Sofware: 
    Python, PyTorch, and Aequitas (https://pypi.org/project/aequitas/); GPU access for creating models.
 
-### [Course-1: Applying AI to 2D Medical Imaging Data](Course-1)
+### [Course-1: Applying AI to 2D Medical Imaging Data](Course-1/README.md)
 
 The initial course focuses on foundational skills necessary for effectively working with 2D imaging data. 
 This includes tasks such as extracting images from DICOM files, constructing AI models, 
@@ -20,14 +20,14 @@ and navigating the regulatory approval process. As part of the course project, s
 engage in training a Convolutional Neural Network (CNN) to classify chest X-rays for the 
 presence of pneumonia. Additionally, they learn to formulate an FDA validation plan to ensure the reliability of their AI models.
 
-### [Course-2: Applying AI to 3D Medical Imaging Data](Course-2)
+### [Course-2: Applying AI to 3D Medical Imaging Data](Course-2/README.md)
 
 The second course delves into the realm of 3D imaging data, encompassing clinical fundamentals, various 
 imaging modalities, and common analysis techniques. The curriculum also delves into the integration of AI 
 into the clinical workflow. These courses (first two) collectively equip students with the knowledge and skills 
 necessary to extract valuable insights from medical imaging data using AI methodologies.
 
-### [Course-3: Applying AI to Electronic Health Data (EHR) Data](Course-3)
+### [Course-3: Applying AI to Electronic Health Data (EHR) Data](Course-3/README.md)
 
 The third course centers on employing AI techniques with Electronic Health Record (EHR) data. In 
 today's dynamic landscape, EHR data has taken on a critical role as a cornerstone of 
@@ -47,7 +47,7 @@ of analytical frameworks, including TF and Aequitas. These frameworks serve as t
 assess model bias and uncertainty, thus ensuring the robustness and integrity of your AI-driven 
 decision-making processes.
 
-### [Course-4: Applying AI to Wearable Device Data](Course-4) 
+### [Course-4: Applying AI to Wearable Device Data](Course-4/README.md) 
 
 Wearable devices stand as a burgeoning source of physical health data, promising to enrich a patient's 
 health insights through continuous, unobtrusive monitoring. This technology bears the potential to 
