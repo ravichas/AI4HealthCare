@@ -13,7 +13,7 @@ You will be provided with the medical images with clinical labels for each image
 from their accompanying radiology reports.
 
 The project will include access to a GPU for fast training of deep learning architecture, as well 
-as access to 112,000 chest x-rays with disease labels acquired from 30,000 patients.
+as access to 112,000 chest x-rays (due to limit not included in this repo.) with disease labels acquired from 30,000 patients.
 
 ## Project Highlight
 This project is designed to give you hands-on experience with 2D medical imaging data analysis 
@@ -33,8 +33,8 @@ plan necessary validations to prepare a medical imaging model for regulatory app
 This project has the following steps.
 
 * [Exploratory Data Analysis](EDA.ipynb)
-* [Building and Training Your Model](Build and train model.ipynb)(Inference.ipynb)
-* Clinical Workflow Integration
-* FDA Preparation
-
+* Building and Training Your Model
+    * [Build and train model](Build and train model.ipynb)
+    * [Inference](Inference.ipynb)
+* [Clinical Workflow Integration, FDA Preparation](FDA_Submission_Template.md)
 
