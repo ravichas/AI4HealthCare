@@ -37,7 +37,7 @@ concept, Part 1: Overview & Instructions.
 Physiological Mechanics of Pulse Rate Estimation
 Pulse rate is typically estimated by using the PPG sensor. When the ventricles contract, the capillaries in the wrist fill with blood. The (typically green) light emitted by the PPG sensor is absorbed by red blood cells in these capillaries and the photodetector will see the drop in reflected light. When the blood returns to the heart, fewer red blood cells in the wrist absorb the light and the photodetector sees an increase in reflected light. The period of this oscillating waveform is the pulse rate.
 
-![PPG Sensor on Blood Flow](https://learn.udacity.com/nanodegrees/nd320/parts/cd0568/lessons/18f3eb82-4af0-40e3-8b53-7a8fd54c81da/concepts/f03327b1-fed6-4ac8-a0eb-981f48b5f2aeL)
+![PPG Sensor on Blood Flow](https://video.udacity-data.com/topher/2020/February/5e3c882a_ppg-mechanics/ppg-mechanics.png)
 
 
 ## PPG Sensor on Blood Flow
