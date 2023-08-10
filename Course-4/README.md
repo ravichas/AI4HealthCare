@@ -183,9 +183,50 @@ well-known trend that average resting heart rate increases up until middle age a
 into old age. We'll also see if resting heart rates are higher for women than men. See the trend 
 illustrated in this image:
 
-![PPG Sensor on Blood Flow](https://video.udacity-data.com/topher/2020/February/5e3c882a_heart-rate-age-reference-chart/heart-rate-age-reference-chart.jpg)
+![Heart Rate Age Reference Chart](https://video.udacity-data.com/topher/2020/February/5e3c882a_heart-rate-age-reference-chart/heart-rate-age-reference-chart.jpg)
 
+Follow the steps in the notebook to reproduce this figure.
 
+### Dataset (CAST)
+
+The data from this project comes from the Cardiac Arrhythmia Suppression Trial (CAST), which was 
+sponsored by the National Heart, Lung, and Blood Institute (NHLBI). CAST collected 24 hours of 
+heart rate data from ECGs from people who have had a myocardial infarction (MI) within the past 
+two years.[1] This data has been smoothed and resampled to more closely resemble PPG-derived pulse 
+rate data from a wrist wearable.[2]
+
+References: 
+1. CAST RR Interval Sub-Study Database Citation - Stein PK, Domitrovich PP, Kleiger RE, Schechtman KB, 
+   Rottman JN. Clinical and demographic determinants of heart rate variability in patients post-myocardial 
+   infarction: insights from the Cardiac Arrhythmia Suppression Trial (CAST). Clin Cardiol 23(3):187-94; 2000 (Mar)
+2. Physionet Citation - Goldberger AL, Amaral LAN, Glass L, Hausdorff JM, Ivanov PCh, Mark RG, Mietus JE, 
+   Moody GB, Peng C-K, Stanley HE. PhysioBank, PhysioToolkit, and PhysioNet: Components of a New 
+   Research Resource for Complex Physiologic Signals (2003). Circulation. 101(23):e215-e220.
+
+### Instructions
+
+1. Clonethe project starter repo (same repo as part 1 of the final project) 
+2. Open the `clinical_app_starter.ipynb` in a local program (ex. spyder IDE), jupyter notebooks etc 
+3. Now you are ready to complete Part 2 of the project
+
+Note:  Package dependenceies. You can check this using `conda list` command
+* `scipy` (1.2.0+) 
+* `seaborn` (0.10.0+) 
+
+Other useful information: 
+* update a package, use, for example, 
+  `pip3 install seaborn=0.10.0
+   conda list seaborn`
+
+### Conclusion 
+
+Fitbit performed the exact analysis you just completed in this project. They used 100+ billions of hours
+ of data from their user population in 2018. Read more about it [here](https://investor.fitbit.com/press/press-releases/press-release-details/2018/Fitbits-100-Billion-Hours-of-Resting-Heart-RateUser-DataReveals-Resting-Heart-Rate-Decreases-After-Age-40/default.aspx)
+
+![Age Group and Gender](https://video.udacity-data.com/topher/2020/February/5e3c8829_fitbit-resting-heart-rate/fitbit-resting-heart-rate.jpg)
+
+Please find the completed project files here: 
+* 
 
 Acknowledgement: Udacity Nanodegree Team
 
