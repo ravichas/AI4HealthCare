@@ -174,6 +174,16 @@ You should head to the next Concept Pulse Rate Algorithm.
 Confirm that the pulse_rate_starter.ipynbis open and you are ready to complete Part 1 of the Final Project.
 
 
+Part 2: Clinical Application
+Now that you have built your pulse rate algorithm and tested your algorithm to know it works, we can use it to 
+compute more clinically meaningful features and discover healthcare trends.
+
+Specifically, you will use 24 hours of heart rate data from 1500 samples to try to validate the 
+well-known trend that average resting heart rate increases up until middle age and then decreases 
+into old age. We'll also see if resting heart rates are higher for women than men. See the trend 
+illustrated in this image:
+
+![PPG Sensor on Blood Flow](https://video.udacity-data.com/topher/2020/February/5e3c882a_heart-rate-age-reference-chart/heart-rate-age-reference-chart.jpg)
 
 
 
