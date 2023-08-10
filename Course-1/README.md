@@ -32,8 +32,8 @@ plan necessary validations to prepare a medical imaging model for regulatory app
 ## Project Steps
 This project has the following steps.
 
-* Exploratory Data Analysis
-* Building and Training Your Model
+* [Exploratory Data Analysis](EDA.ipynb)
+* [Building and Training Your Model](Build and train model.ipynb)(Inference.ipynb)
 * Clinical Workflow Integration
 * FDA Preparation
 
