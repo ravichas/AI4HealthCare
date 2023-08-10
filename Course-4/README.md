@@ -160,7 +160,7 @@ do not need to be modified.
 Offline Instructions
 
 1. Clone the project starter repo [here](https://github.com/udacity/nd320-c4-wearable-data-project-starter).
-2. Open up the `pulse_rate_starter.ipynb` in a local program (e.g., spyder IDE, Jupyter Notebooks, etc. 
+2. Open up the `pulse_rate_starter.ipynb` (in this repo this file is called `pulse_rate.ipynb`) in a local program (e.g., spyder IDE, Jupyter Notebooks, etc. 
    which you can find more detailed instructions in the Introduction to Wearables Lesson's Developer's 
    Workflow Concept.)
 3. You are ready to begin Part 1 of the Final Project.
@@ -171,7 +171,7 @@ Notes: It is good to confirm that the packages scipy is version 1.2.0+.
 ### Online Instructions
 
 You should head to the next Concept Pulse Rate Algorithm.
-Confirm that the `pulse_rate_starter.ipynb` is open and you are ready to complete Part 1 of the Final Project.
+Confirm that the `pulse_rate.ipynb` is open and you are ready to complete Part 1 of the Final Project.
 
 
 Part 2: Clinical Application
@@ -206,7 +206,8 @@ References:
 ### Instructions
 
 1. Clonethe project starter repo (same repo as part 1 of the final project) 
-2. Open the `clinical_app_starter.ipynb` in a local program (ex. spyder IDE), jupyter notebooks etc 
+2. Open the `clinical_app_starter.ipynb` (in this repo, I renamed this file as  
+   `clinical_app.ipynb`) in a local program (ex. spyder IDE), jupyter notebooks etc 
 3. Now you are ready to complete Part 2 of the project
 
 Note:  Package dependenceies. You can check this using `conda list` command
@@ -226,10 +227,13 @@ Fitbit performed the exact analysis you just completed in this project. They use
 ![Age Group and Gender](https://video.udacity-data.com/topher/2020/February/5e3c8829_fitbit-resting-heart-rate/fitbit-resting-heart-rate.jpg)
 
 Please find the completed project files here: 
-* `pulse_rate.ipynb`  will produce `passed.png`
-* `unit_test.ipynb` for unit testing
-* `clinical_app.ipynb`   
+### Part-1
 
+* `pulse_rate.ipynb`  will produce `passed.png`. This file can be accessed [here](pulse_rate.ipynb)
+   * `passed.png` is available [here](`passed.png`)
+* `unit_test.ipynb` for unit testing. 
+### Part-2
+* `clinical_app.ipynb` can be accessed [here](clinical_app.ipynb)   
 
 Acknowledgement: Udacity Nanodegree Team
 
