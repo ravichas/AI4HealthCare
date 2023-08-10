@@ -34,7 +34,7 @@ This project has the following steps.
 
 * [Exploratory Data Analysis](EDA.ipynb)
 * Building and Training Your Model
-    * [Build and train model]('Build and train model.ipynb')
+    * [Build and train model](Build%20and%20train%20model.ipynb)
     * [Inference](Inference.ipynb)
 * [Clinical Workflow Integration, FDA Preparation](FDA_Submission_Template.md)
 
