@@ -24,19 +24,6 @@ poised to uncover invaluable insights that have the potential to reshape medical
 
 
 
-User
-Is this a good header to indicate the main writeup came from Udacity?
-ChatGPT
-"Udacity-Originated Main Writeup"
-
-
-
-
-User
-(Please note that most of this section writeup was from Udacity and I have summarized portions of the writeup)
-ChatGPT
-"Source Acknowledgment: Udacity's Contribution and Summary"
-
 
 
 Acknowledgement: Udacity Nanodegree Team
