@@ -25,9 +25,12 @@ plays a critical role in consolidating information from short-term memory into l
 In essence, the hippocampus is widely recognized as the center responsible for memory and learning 
 processes, forming the foundation for our cognitive abilities.
 
-<p align="center">
-  < src="https://video.udacity-data.com/topher/2020/March/5e813bf9_hippocampus-small/hippocampus-small.gif">
+<div align="center">
+<img src="https://video.udacity-data.com/topher/2020/March/5e813bf9_hippocampus-small/hippocampus-small.gif">
+<p> Source: Life Science Databases (LSDB). Hippocampus. Images are from Anatomography maintained by
+    LSDB. (2010). CC-BY-SA 2.1jp.[Link](https://commons.wikimedia.org/wiki/File:Hippocampus_small.gif) 
 </p>
+</div>
 
 ## Project Highlight
 
