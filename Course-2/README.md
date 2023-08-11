@@ -26,9 +26,7 @@ In essence, the hippocampus is widely recognized as the center responsible for m
 processes, forming the foundation for our cognitive abilities.
 
 <p align="center">
-![Hippocampus:](https://video.udacity-data.com/topher/2020/March/5e813bf9_hippocampus-small/hippocampus-small.gif)
-
-Source: Life Science Databases (LSDB). Hippocampus. Images are from Anatomography maintained by LSDB (2010). CC-BY-SA-2.1jp (https://commons.wikimedia.org/wiki/File:Hippocampus_small.gif)
+  <img width="460" height="300" src="https://video.udacity-data.com/topher/2020/March/5e813bf9_hippocampus-small/hippocampus-small.gif">
 </p>
 
 ## Project Highlight
