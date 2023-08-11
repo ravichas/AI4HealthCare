@@ -231,7 +231,7 @@ Please find the completed project files here:
 
 * `pulse_rate.ipynb`  will produce `passed.png`. This file can be accessed [here](pulse_rate.ipynb)
    * `passed.png` is available [here](passed.png)
-* `unit_test.ipynb` for unit testing. 
+* `unit_test.ipynb` for unit testing and is available [here](unit_test.ipynb)
 ### Part-2
 * `clinical_app.ipynb` can be accessed [here](clinical_app.ipynb)   
 
