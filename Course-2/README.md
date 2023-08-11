@@ -164,11 +164,57 @@ are running a Linux distribution, you might be able to install dcmtk directly fr
 the package manager (e.g. `apt-get install dcmtk` in Ubuntu)
 
 
+## Section 1: Curating a Dataset of Brain MRIs
+
+<div align="center">
+<img src="https://video.udacity-data.com/topher/2020/March/5e813c00_slicer/slicer.png">
+<p> Slicer image </p>
+</div>
+
+You will perform this operation in *Workspace for Section 1**. This workspace (Udacity) has a 
+Python virual environment called **medai** which is setup with everything that you need to 
+train your ML model.
+
+The data is located in the VM at `/data/TrainingSet` folder [here](https://github.com/udacity/nd320-c3-3d-imaging-starter/tree/master/data/TrainingSet)
+
+In the designated project directory labeled `section1,` you will locate a Python Notebook. This 
+Notebook is thoughtfully equipped with a set of instructions aimed at assisting you in scrutinizing 
+the dataset, enhancing your comprehension of the clinical aspects of the challenge, and preparing 
+the data for seamless integration with your algorithm in Section 2. Within this notebook, you 
+will encounter two distinct types of comments:
+
+Comments annotated with `# TASK`: signify explicit tasks, instructions, or inquiries that require 
+your attention and completion.
+
+Comments lacking the aforementioned annotation are optional in nature. However, they serve 
+as suggestions, queries, or contextual information that is designed to enrich your grasp 
+of the subject matter. Engaging with these supplementary comments can contribute to a 
+more profound understanding of the domain and facilitate the application of your newfound skills 
+in exploring medical imaging datasets.
+
+
+## Instructions
+
+Once you complete the tasks, copy the following to the directory `section1/out`: 
+1. Curated dataset with labels, as collection of NIFTI files. Amount of training image 
+volumes should be the same as the amount of label volumes`
+2. A Python notebook (or a raw python file) with the results (plus comments) of 
+   the Exploratory Data Analysis. 
+
+Note: You can launch Jupyter running the following bash script, `bash launch_jupyter.sh`
+
+## Section 2: Training a Segmentation CNN
 
 
 
 
-Regenerate
+
+
+
+
+
+
+
 
 
 
