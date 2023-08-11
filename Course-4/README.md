@@ -203,6 +203,14 @@ References:
    Moody GB, Peng C-K, Stanley HE. PhysioBank, PhysioToolkit, and PhysioNet: Components of a New 
    Research Resource for Complex Physiologic Signals (2003). Circulation. 101(23):e215-e220.
 
+### Future directions
+
+Food for thought:
+
+* Does the above graph look similar to any graph created in this project?
+* Remember, the dataset we used had only 36000 hours instead of 100+ billions of hours, how would this 
+  affect our results if we had 100+ billion hours of data?
+
 ### Instructions
 
 1. Clonethe project starter repo (same repo as part 1 of the final project) 

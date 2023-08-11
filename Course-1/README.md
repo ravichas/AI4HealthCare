@@ -60,9 +60,19 @@ This project has the following steps.
     * [Inference](Inference.ipynb)
 * [Clinical Workflow Integration, FDA Preparation](FDA_Submission_Template.md)
 
+
+## Next steps suggested by Udacity team
+
+* Create some of your own custom image augmentation (such as different image filtering techniques) rather than solely using those predefined by Keras’ ImageDataGenerator.
+
+* Try creating two ‘nested’ models to specifically predict pneumonia. One that predicts pneumonia and/or infiltrates at the top level, and then a second model that specifically predicts pneumonia from the positive cases returned by the first model.
+
+* Have your model output a class activation map in addition to a single binary prediction of pneumonia. This map will help a clinician to understand what the model is detecting as probable pneumonia in each image.
+
 ## Supporting links
 * https://www.kaggle.com/datasets/nih-chest-xrays/data 
 * You may also download all of the initial files for the project directly from this Udacity repo, https://github.com/udacity/AIHCND_C2_Starter 
 * README file for the project is available from here, https://github.com/udacity/AIHCND_C2_Starter/blob/master/README.md
+
 
 Acknowledgement: Udacity Nanodegree Team

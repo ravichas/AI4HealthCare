@@ -70,4 +70,9 @@ precision of the pulse rate estimation. The project culminates with a rigorous e
 the algorithm's performance. This evaluation process will undergo iterative refinement, 
 persisting until the desired level of accuracy is accomplished.
 
+## Helpful sites
+* Coding style, https://peps.python.org/pep-0008/#naming-conventions
+* Magic Number Programming, https://en.wikipedia.org/wiki/Magic_number_(programming) 
+* 
+
 

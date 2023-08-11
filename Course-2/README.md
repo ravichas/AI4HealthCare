@@ -2,40 +2,37 @@
 (*Please note that most of this section writeup was from Udacity and I have summarized portions of the writeup*)
 
 ## Project Overview
-In this project, you will apply the skills that you have acquired in this 2D medical imaging course 
-to analyze data from the NIH Chest X-ray Dataset and train a CNN to classify a given chest x-ray 
-for the presence or absence of pneumonia. This project will culminate in a model that can predict 
-the presence of pneumonia with human radiologist-level accuracy that can be prepared for 
-submission to the FDA for 510(k) clearance as software as a medical device. As part of the submission 
-preparation, you will formally describe your model, the data that it was trained on, and a validation 
-plan that meets FDA criteria.
 
-You will be provided with the medical images with clinical labels for each image that were extracted 
-from their accompanying radiology reports.
+### Quantification of Hippocampus Volume in Alzheimer's Disease Progression
 
-The project will include access to a GPU for fast training of deep learning architecture, as well 
-as access to 112,000 chest x-rays with disease labels acquired from 30,000 patients.
+## Introduction
+Alzheimer's disease (AD) stands as a progressive neurodegenerative condition characterized by compromised 
+neuronal function leading to eventual cell death. This disorder represents the leading cause of dementia, 
+marked by clinical indicators such as memory loss, diminished capacity for new learning, language function 
+decline, and other discernible manifestations.
+
+For individuals presenting initial symptoms, the ability to quantify disease advancement over time 
+holds significant potential in guiding therapeutic interventions and disease management strategies.
+
+Among the various techniques available, radiological assessments utilizing MRI examinations stand out 
+as a sophisticated means of quantifying disease progression. In particular, the measurement of hippocampal 
+volume has emerged as a valuable tool for diagnosing and monitoring the progression of numerous brain 
+disorders, prominently including AD. Substantiated by studies, a notable reduction in hippocampal volume 
+has been consistently observed in AD patients.
+
+The hippocampus, a pivotal structure within the human brain (as well as in the brains of other vertebrates), 
+plays a critical role in consolidating information from short-term memory into long-term memory. 
+In essence, the hippocampus is widely recognized as the center responsible for memory and learning 
+processes, forming the foundation for our cognitive abilities.
+
+![Hippocampus: Source: Life Science Databases (LSDB). Hippocampus. Images are from Anatomography maintained by LSDB (2010). CC-BY-SA-2.1jp (commons.wikimedia.org/wiki/File:Hippocampus_small.gif))(https://video.udacity-data.com/topher/2020/March/5e813bf9_hippocampus-small/hippocampus-small.gif)
+
 
 ## Project Highlight
-This project is designed to give you hands-on experience with 2D medical imaging data analysis 
-and preparation of a medical imaging model for regulatory approval.
 
-Upon completion of this project, you would be able to:
-
-recommend appropriate imaging modalities for common clinical applications of 2D medical imaging
-perform exploratory data analysis (EDA) on medical imaging data to inform model training and explain model performance
-establish the appropriate ‘ground truth’ methodologies for training algorithms to label medical images
-extract images from a DICOM dataset
-train common CNN architectures to classify 2D medical images
-translate outputs of medical imaging models for use by a clinician
-plan necessary validations to prepare a medical imaging model for regulatory approval
 
 ## Project Steps
 This project has the following steps.
 
-* Exploratory Data Analysis
-* Building and Training Your Model
-* Clinical Workflow Integration
-* FDA Preparation
 
 Acknowledgement: Udacity Nanodegree Team`

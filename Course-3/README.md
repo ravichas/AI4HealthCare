@@ -127,5 +127,12 @@ You complete the following steps there:
 
 The project submission notebook,student_project_submission.ipynb, is accessible from [here](student_project_submission.ipynb)
 
+### Next steps, suggestions from Udacity Team 
+* Students can tune the TF Probability library to show and rank uncertainty estimates.
+* Students can use cross-feature columns.
+* Students can use ICD groupings to reduce dimensionality.
+* Students can build a more complex representation of the data - e.g. conditional probability matrix, pre-trained embeddings, etc.
+* Students uses Tensorflow Data Validation Visualizations to analyze which fields have a high amount of missing/null values or high cardinality.
+
 Acknowledgement: Udacity Nanodegree Team
 
