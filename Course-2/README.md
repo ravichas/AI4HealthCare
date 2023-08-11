@@ -32,6 +32,32 @@ processes, forming the foundation for our cognitive abilities.
 </p>
 </div>
 
+
+Humans possess a pair of hippocampi, with one situated within each hemisphere of the brain. 
+These vital structures are situated in the medial temporal lobe. An intriguing tidbit - the 
+term "hippocampus" finds its origins in Greek, approximately translating to "horselike," 
+owing to its resemblance to a seahorse, as noted by one of the early anatomists who 
+depicted the structure. This analogy becomes apparent upon viewing the accompanying image.`
+
+<div align="center">
+<img src="https://video.udacity-data.com/topher/2020/March/5e813bf7_hippocampus-and-seahorse-cropped/hippocampus-and-seahorse-cropped.jpg">
+<p> Seahorse & Hippocampus 
+    Source: Seress, Laszlo. Laszlo Seress preparation of a human hippocampus along with a sea horse 
+    (1980). CC-BY-SA 1.0.[Link](https://commons.wikimedia.org/wiki/File:Hippocampus_and_seahorse.JPG) 
+</p>
+</div>
+
+As noted by Nobis et al. (2019; https://www.sciencedirect.com/science/article/pii/S2213158219302542)),the hippocampal volume exhibits variation within a population, encompassing 
+specific parameters and defined limits. It becomes feasible to establish a "normal" range by considering 
+factors such as age, sex, and brain hemisphere.
+
+This phenomenon is visually demonstrated in the accompanying image, illustrating the right 
+hippocampal volume of women spanning ages 52 to 71.
+
+
+
+
+
 ## Project Highlight
 
 
