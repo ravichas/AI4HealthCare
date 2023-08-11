@@ -203,6 +203,53 @@ volumes should be the same as the amount of label volumes`
 
 Note: You can launch Jupyter running the following bash script, `bash launch_jupyter.sh`
 
+Please find `Section 1` code/data files [here](section1.tar.gz). Here is a tree diagram of the contents of 
+section1 
+```
+section1
+`-- out
+    |-- Final\ Project\ EDA.ipynb
+    |-- README.md
+    |-- images
+    |   |-- hippocampus_001.nii.gz
+    |   |-- hippocampus_003.nii.gz
+    |   |-- hippocampus_004.nii.gz
+    |   |-- hippocampus_006.nii.gz
+    |   |-- hippocampus_007.nii.gz
+    |   |-- ......................
+    |   |-- hippocampus_383.nii.gz
+    |   |-- hippocampus_385.nii.gz
+    |   |-- hippocampus_386.nii.gz
+    |   |-- hippocampus_387.nii.gz
+    |   |-- hippocampus_389.nii.gz
+    |   |-- hippocampus_390.nii.gz
+    |   |-- hippocampus_393.nii.gz
+    |   `-- hippocampus_394.nii.gz
+    |-- img
+    |   |-- Slicer.png
+    |   `-- nomogram_fem_right.svg
+    `-- labels
+        |-- hippocampus_001.nii.gz
+        |-- hippocampus_003.nii.gz
+        |-- hippocampus_004.nii.gz
+        |-- hippocampus_006.nii.gz
+        |-- hippocampus_007.nii.gz
+        |-- hippocampus_008.nii.gz
+        |-- hippocampus_011.nii.gz
+        |-- ......................
+        |-- hippocampus_381.nii.gz
+        |-- hippocampus_383.nii.gz
+        |-- hippocampus_385.nii.gz
+        |-- hippocampus_386.nii.gz
+        |-- hippocampus_387.nii.gz
+        |-- hippocampus_389.nii.gz
+        |-- hippocampus_390.nii.gz
+        |-- hippocampus_393.nii.gz
+        `-- hippocampus_394.nii.gz
+
+5 directories, 524 files
+```
+
 ## Section 2: Training a Segmentation CNN
 
 
