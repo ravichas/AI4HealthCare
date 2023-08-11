@@ -55,6 +55,13 @@ This phenomenon is visually demonstrated in the accompanying image, illustrating
 hippocampal volume of women spanning ages 52 to 71.
 
 
+<div align="center">
+<img src="https://video.udacity-data.com/topher/2020/March/5e813c01_nomogram-fem-right/nomogram-fem-right.jpg">
+<p> Nanogram - Female, Right Hippocampus Volume, Corrected for head Size, 
+    Source: Nobis, L., Manohar, S.G., Smith, S.M., Alfaro-Almagro, F., Jenkinson, M., Mackay, C.E., Husain, M. Hippocampal volume across age: Nomograms derived from over 19,700 people in UK Biobank. Neuroimage: Clinical, 23(2019), pp. 2213-1582.
+</p>
+</div>
+
 
 
 
