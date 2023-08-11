@@ -257,13 +257,129 @@ section1
 
 
 
+Please find `Section 2` code/data files [here](section2.tar.gz). Here is a tree diagram of the contents of 
+section2 
+```
+section2
+`-- out
+    |-- Annotation\ 2023-03-18\ 231845.png
+    |-- ImageData_step99.png
+    |-- Prediction_step99.png
+    |-- ProbabilityMap_step99.png
+    |-- loss.png
+    |-- model.pth
+    `-- results.json
+
+2 directories, 7 files
+```
 
 
 
 
 
 
+## Section 3: 
 
+
+
+
+
+Please find `Section 3` code/data files [here](section3.tar.gz). Here is a tree diagram of the contents of 
+section3 
+```
+section3
+|-- README.txt
+|-- data
+|   |-- README.txt
+|   `-- TestVolumes
+|       `-- Study1
+|           `-- 13_HCropVolume
+|               |-- 1.dcm
+|               |-- 10.dcm
+|               |-- 11.dcm
+|               |-- 12.dcm
+|               |-- 13.dcm
+|               |-- 14.dcm
+|               |-- 15.dcm
+|               |-- 16.dcm
+|               |-- 17.dcm
+|               |-- 18.dcm
+|               |-- 19.dcm
+|               |-- 2.dcm
+|               |-- 20.dcm
+|               |-- 21.dcm
+|               |-- 22.dcm
+|               |-- 23.dcm
+|               |-- 24.dcm
+|               |-- 25.dcm
+|               |-- 26.dcm
+|               |-- 27.dcm
+|               |-- 28.dcm
+|               |-- 29.dcm
+|               |-- 3.dcm
+|               |-- 30.dcm
+|               |-- 31.dcm
+|               |-- 32.dcm
+|               |-- 4.dcm
+|               |-- 5.dcm
+|               |-- 6.dcm
+|               |-- 7.dcm
+|               |-- 8.dcm
+|               `-- 9.dcm
+|-- launch_OHIF.sh
+|-- launch_orthanc.sh
+|-- out
+|   |-- DCM_report_OHIF_Viewer_screenshot.png
+|   |-- PGBM-002_20230427_slice10.png
+|   |-- PGBM-002_20230427_slice16.png
+|   |-- PGBM-002_20230427_slice24.png
+|   |-- README.md
+|   |-- Validation_plan
+|   |-- inference_dcm.py
+|   `-- report.dcm
+`-- src
+    |-- <TEMPORARY\ PATH\ TO\ SAVE\ YOUR\ REPORT\ FILE>
+    |-- assets
+    |   `-- Roboto-Regular.ttf
+    |-- data
+    |   `-- TestVolumes
+    |-- deploy_scripts
+    |   |-- route_dicoms.lua
+    |   |-- send_result.sh
+    |   |-- send_volume.sh
+    |   `-- start_listener.sh
+    |-- environment.yml
+    |-- inference
+    |   |-- UNetInferenceAgent.py
+    |   |-- __init__.py
+    |   |-- __pycache__
+    |   |   |-- UNetInferenceAgent.cpython-38.pyc
+    |   |   `-- __init__.cpython-38.pyc
+    |   `-- model.pth
+    |-- inference_dcm.py
+    |-- networks
+    |   |-- RecursiveUNet.py
+    |   |-- __init__.py
+    |   `-- __pycache__
+    |       |-- RecursiveUNet.cpython-38.pyc
+    |       `-- __init__.cpython-38.pyc
+    `-- utils
+        |-- __pycache__
+        |   |-- utils.cpython-38.pyc
+        |   `-- volume_stats.cpython-38.pyc
+        |-- utils.py
+        `-- volume_stats.py
+
+17 directories, 65 files
+
+```
+
+
+
+
+
+
+## Section 3: 
 
 
 
