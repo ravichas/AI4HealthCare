@@ -62,6 +62,117 @@ hippocampal volume of women spanning ages 52 to 71.
 </p>
 </div>
 
+However, there exists a challenge in measuring hippocampal volume through MRI scans. The process can be 
+rather laborious, as each individual slice of the 3D volume requires meticulous analysis 
+and the structure's contours must be traced. Complicating matters further, the hippocampus 
+exhibits a non-uniform shape.
+
+Can you discern the hippocampi in the provided axial slice below?
+
+<div align="center">
+<img src="https://video.udacity-data.com/topher/2020/April/5e95548d_mri/mri.jpg">
+<p> Axial slice of an MRI image of the brain </p>
+</div>
+
+By now, you might have surmised our intention to develop an AI software designed to assist clinicians 
+in accomplishing this task with greater speed and consistency.
+
+Throughout this course, you've observed that a significant portion of AI development involves 
+the meticulous curation of datasets and the demonstration of clinical effectiveness. In this project, 
+our primary emphasis will be directed toward the technical facets of constructing a segmentation model 
+and seamlessly incorporating it into the clinician's operational process. As such, we'll leave 
+the aspects of dataset curation and extensive model validation somewhat beyond 
+the immediate scope of this project.
+
+## What you will build? 
+
+Within this undertaking, you will orchestrate the development of a comprehensive AI 
+system. This system will encompass a machine learning algorithm seamlessly incorporated 
+into a clinical-grade viewer, its prime function being the automatic computation of 
+hippocampal volumes for newly presented patients. This computation will take place 
+as their imaging studies are committed to the clinical imaging archive.
+
+An advantageous aspect is that you need not contend with entire patient cranial scans. 
+To streamline the process, our (fictional) radiology department employs a HippoCrop tool, 
+which adeptly extracts a rectangular region from each brain scan image series. This thoughtful implementation 
+will ease your task considerably. Furthermore, our diligent radiologists have meticulously curated 
+and annotated a dataset containing pertinent volumes. Remarkably, they've even converted these annotations 
+to the NIFTI format.
+
+The dataset at your disposal contains segmentations of the right hippocampus, and your endeavor 
+will involve leveraging the U-Net architecture to construct the segmentation model.
+
+Upon successfully achieving this, your focus will shift to the seamless integration of this model 
+into a functional clinical PACS. This integration aims to ensure that the model becomes an intrinsic 
+component of the workflow, operating on every incoming study and generating comprehensive 
+volume measurement reports.
+
+
+## Dataset
+
+We will be using "Hippocampus" dataset from the [Medical Decathlon Competition](medicaldecathlon.com). 
+This dataset adopts a configuration of NIFTI files, each corresponding to a distinct volume, along with 
+an accompanying segmentation mask. The original images comprising this dataset consist of T2 MRI 
+scans encompassing the entirety of the brain.
+
+It's noteworthy that, within this dataset, our focus is on cropped volumes. Specifically, these 
+volumes exclusively encapsulate the region surrounding the hippocampus. This strategic cropping approach 
+has a twofold impact: firstly, it substantially reduces the dataset's overall size; secondly, it 
+streamlines the complexity of our machine learning task, thereby affording us more feasible 
+training durations. It's essential to underscore that this doesn't undermine the significance 
+of our challenge—it's far from being considered a "toy" problem. In the realm of medical imaging, 
+algorithms designed to crop rectangular regions of interest are commonly employed. It's important to 
+acknowledge that segmentation remains an intricate undertaking, demanding rigorous attention.
+
+## Programming Environment
+
+We have two options to complete this project
+
+## Option-1: Udacity Workspaces: 
+This will be a self-contained environment that one can run directly on their web-browser. 
+This option was used to complete the project. 
+
+## Option-2 Local Environment (sharing the details, just for the sake of completion)
+Need the follogin libraries for the first two sections of the project
+
+* Python 3.7+ environment
+* PyTorch (preferably with CUDA)
+* nibabel (https://nipy.org/nibabel/)
+* matplotlib
+* numpy
+* pydicom (https://pydicom.github.io/pydicom/stable/tutorials/installation.html)
+* pillow (should be installed with pytorch)
+* tensorboard (https://pypi.org/project/tensorboard/)
+
+In the third section of the project we will be working with three software products for emulating the clinical
+network. You should need to install and configure 
+
+* [Orthanc Server](https://www.orthanc-server.com/download.php) for PACS emulation 
+* [OHIF zero-footprint web viewer](https://docs.ohif.org/development/getting-started)
+for viewing images. Note that if you deploy OHIF from its github repository, 
+at the moment of writing the repo includes a yarn script (`orthanc:up`) where it downloads 
+and runs the Orthanc server from a Docker container. If that works for 
+you, you won't need to install Orthanc separately.
+* If you are using Orthanc (or other DICOMWeb server), you will need to configure OHIF to read data 
+from your server. OHIF has instructions for this: https://docs.ohif.org/platform/extensions/modules/data-source
+* In order to fully emulate the Udacity workspace, you will also need to configure Orthanc for 
+auto-routing of studies to automatically direct them to your AI algorithm. For this you will 
+need to take the script that you can find at `section3/src/deploy_scripts/route_dicoms.lua`
+and install it to Orthanc as explained on this page: https://book.orthanc-server.com/users/lua.html
+* [DCMTK tools](https://dcmtk.org/en/)for testing and emulating a modality. Note that if you 
+are running a Linux distribution, you might be able to install dcmtk directly from 
+the package manager (e.g. `apt-get install dcmtk` in Ubuntu)
+
+
+
+
+
+
+Regenerate
+
+
+
+
 
 
 
