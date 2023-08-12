@@ -12,6 +12,8 @@ Electronic Health Record (EHR) and wearable device data.
 ### Required Hardware/Sofware: 
    Python, PyTorch, and Aequitas (https://pypi.org/project/aequitas/); GPU access for creating models.
 
+<p> Click on the course titles to learn more about the courses.</p>
+
 ### [Course-1: Applying AI to 2D Medical Imaging Data](Course-1/README.md)
 
 The initial course focuses on foundational skills necessary for effectively working with 2D imaging data. 
