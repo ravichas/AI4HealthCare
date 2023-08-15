@@ -253,24 +253,101 @@ section1
 ## Section 2: Training a Segmentation CNN
 
 
+<div align="center">
+<img src="https://video.udacity-data.com/topher/2020/March/5e813bfb_loss/loss.png">
+<p> 
+</p>
+</div>
+
+In this section you will perform the following in a **Workspace 
+for Section 2**. This workspace will have the same environment as 
+**Workspace for Section 1**
+
+in the directory called `home/src` you will find the source 
+code that forms the framework for your machine leaning pipeline. 
+
+You will be using `PyTorch` to train the model, similar to the
+segmentation & Classification lesson and `Tensorboard` to visualize 
+the results.
+
+Here are the links for `PyTorch` and `Tensorboard`
+`PyTorch`: https://pytorch.org
+`Tensorboard`: https://tensorflow.org/tensorboard/ 
+
+You will use the script `run_ml_pipelilne.py` to start off the
+training pipeline. Before you run the scirpt, fix the code
+lines that contain `# TASK`
+
+When you are ready, run the code `run_ml_pipeline.py`
+The code has hooks to log progress to Tensorboard. In order to see 
+the Tensorboard output you need to launch Tensorboard executable from the same directory where `run_ml_pipeline.py` is located using the following command: 
+
+`tensorboard --logdir runs --bind-all`
+
+After this step, tensorboard will write logs into directory called
+`runs` and you will be able to view progress by opening the browser 
+and navigating to the default port # 6006 of the machine you are running
+it. 
 
 
+Instructions
+
+Once you complete this section, copy the files to the directory `section2/out`: 
+1) Functional code that trains the segmentation model
+2) Test report with DICE scores on test set (json file). Your average Dice with def model should around .90
+3) screen shots from Tensorboard output, shown the loss plots 
+4) Trained model (model.pth) (deleted due to space limitation)
 
 
 Please find `Section 2` code/data files [here](section2.tar.gz). Here is a tree diagram of the contents of 
 section2 
 ```
-section2
-`-- out
-    |-- Annotation\ 2023-03-18\ 231845.png
-    |-- ImageData_step99.png
-    |-- Prediction_step99.png
-    |-- ProbabilityMap_step99.png
-    |-- loss.png
-    |-- model.pth
-    `-- results.json
-
-2 directories, 7 files
+home
+|-- launch_jupyter.sh
+|-- section2
+|   `-- out
+|       |-- Annotation\ 2023-03-18\ 231845.png
+|       |-- ImageData_step99.png
+|       |-- Prediction_step99.png
+|       |-- ProbabilityMap_step99.png
+|       |-- README.txt
+|       |-- loss.png
+|       |-- model.pth
+|       `-- results.json
+`-- src
+    |-- data_prep
+    |   |-- HippocampusDatasetLoader.py
+    |   |-- SlicesDataset.py
+    |   `-- __pycache__
+    |       |-- HippocampusDatasetLoader.cpython-38.pyc
+    |       `-- SlicesDataset.cpython-38.pyc
+    |-- environment.yml
+    |-- experiments
+    |   |-- UNetExperiment.py
+    |   `-- __pycache__
+    |       |-- UNetExperiment.cpython-36.pyc
+    |       `-- UNetExperiment.cpython-38.pyc
+    |-- inference
+    |   |-- UNetInferenceAgent.py
+    |   |-- __init__.py
+    |   `-- __pycache__
+    |       |-- UNetInferenceAgent.cpython-38.pyc
+    |       `-- __init__.cpython-38.pyc
+    |-- networks
+    |   |-- RecursiveUNet.py
+    |   |-- __init__.py
+    |   `-- __pycache__
+    |       |-- RecursiveUNet.cpython-38.pyc
+    |       `-- __init__.cpython-38.pyc
+    |-- run_ml_pipeline.py
+    |-- runs
+    |-- utils
+    |   |-- __pycache__
+    |   |   |-- utils.cpython-38.pyc
+    |   |   `-- volume_stats.cpython-38.pyc
+    |   |-- utils.py
+    |   `-- volume_stats.py
+    `-- utils.tar.gz
 ```
 
 
@@ -379,7 +456,18 @@ section3
 
 
 
-## Section 3: 
+## Section 3: Integrating into a clinical network
+
+
+<div align="center">
+<img src="https://video.udacity-data.com/topher/2020/March/5e813bff_ohif/ohif.png">
+<p> 
+</p>
+
+<div align="center">
+<img src="https://video.udacity-data.com/topher/2020/March/5e813bfd_network-setup/network-setup.png">
+<p> 
+</p>
 
 
 

@@ -75,6 +75,15 @@ persisting until the desired level of accuracy is accomplished.
 ## Helpful sites
 * Coding style, https://peps.python.org/pep-0008/#naming-conventions
 * Magic Number Programming, https://en.wikipedia.org/wiki/Magic_number_(programming) 
-* 
+* Course-2 
+    * MICCAI Society and dataset called BRATS
+    * Radiological society of North America 
+    * AI Challenge from RSNA 
+    * SIIM (https://siim.org/page/meetings)
+    * Stanford's AIMI
+    * National Consortium of Intelligent Medical Imaging
+    * Startups: Terarecon, Nuance, Enlitic, Mirada Medical, Cortechslabs (Neuroquant)
+    * Microsoft:Project InnerEye 
+    * Google (DeepMind)  
 
 
