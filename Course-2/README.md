@@ -282,12 +282,13 @@ When you are ready, run the code `run_ml_pipeline.py`
 The code has hooks to log progress to Tensorboard. In order to see 
 the Tensorboard output you need to launch Tensorboard executable from the same directory where `run_ml_pipeline.py` is located using the following command: 
 
+`cd src`
 `tensorboard --logdir runs --bind-all`
 
 After this step, tensorboard will write logs into directory called
 `runs` and you will be able to view progress by opening the browser 
 and navigating to the default port # 6006 of the machine you are running
-it. 
+it (ex., `http://f819a6ac7f2cc:6006/`).
 
 
 Instructions
@@ -505,19 +506,6 @@ section3
 17 directories, 65 files
 
 ```
-
-
-
-
-
-
-
-
-
-
-
-## Project Highlight
-
 
 ## Project Steps
 This project has the following steps.
