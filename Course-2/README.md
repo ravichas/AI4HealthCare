@@ -387,7 +387,7 @@ explore either one of the mechanisms of access using a tool like curl or Postman
 also running an auto-routing module that sends a copy of everything it receives to an AI server. 
 See instructions ad the end of this page on how to launch if you are using the Udacity Workspace.
 
-* Viewer system is represented by OHIF. It is connecting to the Orthanc server using DicomWeb and is serving a 
+* Viewer system is represented by OHIF (https://ohif.org). It is connecting to the Orthanc server using DicomWeb and is serving a 
 web application on port 3000. Again, see instructions at the end of this page if you are using the Udacity Workspace.
 
 * AI server is represented by a couple of scripts. `section3/src/deploy_scripts/start_listener.sh` brings 
@@ -398,7 +398,7 @@ AI is the AI module that you will create in this section.
 If you want to replicate this environment on your local machine, you will find instructions in the 
 Project Overview concept.
 
-As with Section 2, in the directory called section3/src you will find the source code that forms the 
+As with Section 2, in the directory called `section3/src` you will find the source code that forms the 
 skeleton of the HippoVolume.AI module.
 
 `inference_dcm.py` is the file that you will be working on. It contains code that will analyze the directory 
