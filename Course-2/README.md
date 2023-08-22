@@ -409,27 +409,29 @@ Note that in real system you would architect things a bit differently. Probably,
 separate piece of software that would monitor the output of the listener, and would manage multiple 
 AI modules, deciding which one to run, automatically. In our case, for the sake of simplicity, all code 
 sits in one Python script that you would have to run manually after you simulate an exam 
-via the send_volume.sh script - inference_dcm.py. It combines the functions 
+via the `send_volume.sh` script - `inference_dcm.py`. It combines the functions 
 of processing of the listener output and executing the model, and it does not do 
 any proper error handling :)
 
 As before, you will need to follow the instructions inside the code files to complete the section 
 and create your AI module. Same convention is used as in Sections 1 and 2: comments that start 
-with # TASK instruct you to create certain code snippets, and all other types of comments provide 
+with `# TASK` instruct you to create certain code snippets, and all other types of comments provide 
 background or stand-out suggestions.
 
 You will need to complete all the instructional comments in the code in order 
 to complete this section. You can do this in any order, but it makes most sense to start with the code 
-in inference_dcm.py.
+in `inference_dcm.py`.
 
 Once you complete the code, you can test it by running
 
+```
 deploy_scripts/send_volume.sh
+```
 
 which will simulate a completion of MRI study and sending of patient data to our PACS, 
-and then following that by running inference_dcm.py
+and then following that by running `inference_dcm.py`
 
-The send_volume.sh script needs to be run from directory section3/src (because it 
+The `send_volume.sh` script needs to be run from directory `section3/src` (because it 
 relies on relative paths). If you did everything correctly, an MRI scan will be sent 
 to the PACS and to your module which will compute the volume, prepare the report and push 
 it back to the PACS so that it could be inspected in our clinical viewer.
@@ -438,12 +440,14 @@ At this point, go to [YOUR IP ADDRESS]:3000 (can be another port if you are usin
 which brings up our OHIF viewer. You should be able to inspect your report in all its glory, in the 
 context of a radiological study presented to a radiologist in a clinical viewer!
 
-The study that send_result.sh sends, and a few other sample studies are located in /data/TestVolumes. 
+The study that `send_result.sh` sends, and a few other sample studies are located in `/data/TestVolumes`. 
 Feel free to modify the script to try out your algorithm with other volumes.
 
+```
 Note, that the DICOM studies used for inferencing this section have been created artificially, 
 and while full-brain series belong to the same original study, this is not the study from 
 which the hippocampus crop is taken.
+```
 
 Now that you have built a radiological AI system and given it to clinicians, you can start collecting 
 data on how your model performs in the real world. If you (or the company you work for) intends to 
@@ -464,13 +468,15 @@ Your algorithm relies upon certain "ground truth" - how did you define your grou
 you prove that your method of collecting the ground truth is robust and represents the population 
 that you claim this algorithm is good for?
 How do you define accuracy of your algorithm and how do you measure it with respect to real 
-world population? Check out the calculator and report from HippoFit for some inspiration.
+world population? Check out the calculator and report from HippoFit for some 
+inspiration (www.smanohar.com/biobank/calculator.html).
 How do you define what data your algorithm can operate on?
 There is no right answer here - think of these and other questions that would come up during 
-validation of such algorithm. Thinking of such things early on will help you build better algorithms in the first place.
+validation of such algorithm. Thinking of such things early on will help you build better 
+algorithms in the first place.
 
 
-Please find `Section 3` code/data files [here](section3.tar.gz). Here is a tree diagram of the contents of 
+Please find `Section 3` `code/data` files [here](section3.tar.gz). Here is a tree diagram of the contents of 
 section3 
 ```
 section3
@@ -560,8 +566,34 @@ section3
 
 ```
 
-## Project Steps
-This project has the following steps.
+Once complete this section, copy the following into directory `section3/out`: 
 
+1) Code that runs inference on a DICOM volumen and produces a DICOM report
+2) A `report.dcm` file with a sample report
+3) screenshot of your report shown in the OHIF viewer
+4) 1-2 page validation plan
+
+## How to run the scirpts (note this is tested for the Udacity VM tested for this class)?
+
+* Open the terminal and enter the following command 
+`bash launch_orthanc.sh` or `./launch_orthanc.sh'. Dont close the terminal
+
+* Wait for the command to complete, with the last line being something like 
+`W0509 05:38:22.152400 main.cpp:719] Orthanc has started` and/or you can verify
+
+* Open a **new** terminal and enter the following command:
+`bash launch_OHIF.sh` or `./launch_OHIF.sh`. **Dont close this terminal session** 
+
+* Wait for it to complete, with the last line being something like
+`@ohif/viewer: i [wdm]: Compiled with warnings.` 
+
+* You will then want to enter the Desktop with the bottom right hand corner.
+	* OHIF should automatically open in a chrome browser if not you can paste `localhost:3005` into the 
+          browswer address bar 
+        * orhtanc isn't necessary to open but if you need it you can access it, you can paste
+          `localhost:8042` into the address bar of Chrome browser.          
+
+Please find `Section 3` code/data files [here](section3.tar.gz). Here is a tree diagram of the contents of 
+section3 
 
 Acknowledgement: Udacity Nanodegree Team`
